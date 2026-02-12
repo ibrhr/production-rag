@@ -5,7 +5,9 @@ description = "This is a production implementation of the RAG model for question
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
+    "aiofiles>=24.1.0",
     "fastapi>=0.124.4",
+    "pydantic-settings>=2.8.1",
     "python-multipart>=0.0.20",
     "uvicorn[standard]>=0.33.0",
 ]
